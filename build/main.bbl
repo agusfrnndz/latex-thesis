@@ -1,0 +1,7 @@
+\begin{thebibliography}{1}
+
+\bibitem{libro:ejemplo_dos_autores}
+N.~Apellido and N.~Apellido, {\em Título del Libro}.
+\newblock Editorial o universidad que lo publicó, mar 2001.
+
+\end{thebibliography}

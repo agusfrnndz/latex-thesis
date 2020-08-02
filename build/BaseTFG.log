@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.2)  2 AUG 2020 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.2)  1 AUG 2020 12:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/agusfrnndz/Thesis/thesis-latex/main.tex
-(/home/agusfrnndz/Thesis/thesis-latex/main.tex
+**/home/agusfrnndz/Thesis/thesis-latex/BaseTFG.tex
+(/home/agusfrnndz/Thesis/thesis-latex/BaseTFG.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 6 language(s) loaded.
 (./upb_class.cls
@@ -808,11 +808,11 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsaveapp=\count169
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 69.
-) (build/main.aux
+) (build/BaseTFG.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-\openout1 = `main.aux'.
+\openout1 = `BaseTFG.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -894,14 +894,14 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
- (build/main.out) (build/main.out)
+ (build/BaseTFG.out) (build/BaseTFG.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `BaseTFG.out'.
 
-<img/UPBLogo.png, id=108, 295.1025pt x 144.54pt>
-File: img/UPBLogo.png Graphic file (type png)
-<use img/UPBLogo.png>
-Package pdftex.def Info: img/UPBLogo.png  used on input line 6.
+<UPBLogo.png, id=108, 295.1025pt x 144.54pt>
+File: UPBLogo.png Graphic file (type png)
+<use UPBLogo.png>
+Package pdftex.def Info: UPBLogo.png  used on input line 6.
 (pdftex.def)             Requested size: 276.43726pt x 135.39783pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 6.
@@ -941,7 +941,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/UPBLogo.png>] (./context/executive_summary.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./UPBLogo.png>] (./context/executive_summary.tex
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 5.5pt.
@@ -1096,7 +1096,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
 [6
 
-] (build/main.toc
+] (build/BaseTFG.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1134,7 +1134,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
  [7])
 \tf@toc=\write4
-\openout4 = `main.toc'.
+\openout4 = `BaseTFG.toc'.
 
 
 
@@ -1167,12 +1167,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
-[8] (build/main.lof
+[8] (build/BaseTFG.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write5
-\openout5 = `main.lof'.
+\openout5 = `BaseTFG.lof'.
 
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 18.
@@ -1233,12 +1233,12 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
 [10
 
-] (build/main.lot
+] (build/BaseTFG.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lot=\write6
-\openout6 = `main.lot'.
+\openout6 = `BaseTFG.lot'.
 
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 20.
@@ -1818,7 +1818,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 28.
- [9] (build/main.bbl
+ [9] (build/BaseTFG.bbl
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 5.5pt.
@@ -2120,26 +2120,26 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 40.
 [17]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
- (build/main.aux
+ (build/BaseTFG.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `BaseTFG.out' has not changed.
 (rerunfilecheck)             Checksum: A4F8614F3592D237C46C59EB26B608B2;1687.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 17307 strings out of 494861
- 282781 string characters out of 6178805
- 402984 words of memory out of 5000000
+ 17306 strings out of 494861
+ 282824 string characters out of 6178805
+ 402983 words of memory out of 5000000
  20260 multiletter control sequences out of 15000+600000
  9148 words of font info for 32 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 50i,15n,77p,601b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,15n,77p,604b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on build/main.pdf (29 pages, 98983 bytes).
+Output written on build/BaseTFG.pdf (29 pages, 98981 bytes).
 PDF statistics:
  310 PDF objects out of 1000 (max. 8388607)
  269 compressed objects within 3 object streams

@@ -1,67 +1,42 @@
-\documentclass[letterpaper,12pt]{book} 
-
-% T1 font encoding is an 8-bit encoding and uses fonts that have 256 glyphs. Support for accented characters as output
-\usepackage[T1]{fontenc}
-% Input accented and other characters.
-\usepackage[utf8]{inputenc}
-% Use Times as default text font, and provide maths support
-\usepackage{mathptmx}
-% Language
-\usepackage[spanish,es-tabla]{babel}
-% Mathetatical formulas
-\usepackage{amsmath, amssymb, amsthm}
-% Set of fonts for mathematics
-%\usepackage{amsfonts}
-% Extra commands and optimisation for tables
-\usepackage{booktabs}
-\usepackage[toc,page]{appendix}
-%\usepackage{minitoc}
-% Select alternative section titles
-%\usepackage{titlesec}
-% Allow tables to flow over page boundaries
-\usepackage{longtable} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%% BIBLIOGRAFIA %%%%%%%%%%%%%%
-%\usepackage[style=iso-numeric]{biblatex}
-%\usepackage{csquotes}
-%\addbibresource{bibtrabajo.bib}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Image manipulation
-\usepackage{graphicx}
-% Create tabular cells spanning multiple rows
-\usepackage{multirow}
-% Link references and markers in menu
-\usepackage{hyperref}
-% Produces figures which text can flow around
-%\usepackage{wrapfig}
-% Control layout of itemize, enumerate, description
-\usepackage{enumitem}
-% Headers and footers
-\usepackage{fancyhdr}
-% Improved interface for floating objects
-\usepackage{float}
-%\usepackage{eurosym}
-% Color control for latex documents
-\usepackage{color}
-% Control over the typesetting of the \maketitle command
-\usepackage{titling}
-
-%\usepackage{tocbibind}
-%\usepackage{natbib}
-% Flexible and complete interface to document dimensions
-\usepackage[left=3.5cm,right=3cm,top=3cm,bottom=3cm]{geometry}
-
-%%% Para las cabeceras
-%\newcommand{\hsp}{\hspace{20pt}}
-%\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-%\headheight=50pt
-%%% 
-%\newcommand{\vacio}{\textcolor{white}{UPB-CBBA}}
-
-\usepackage{config/mystyle}
+\documentclass{upb_class}
 
 \begin{document}
-    %\include{configs/conf}
-    \include{cover}
+\frontmatter
+	\begin{caratula}{Lectura remota de servicios básicos mediante reconocimiento de caracteres}
+		{Mauro Agustín Fernández Villalba}{Licenciatura en Ingeniería Electromecánica}{Ing. Mauro Sergio Quiroga Coronado}{Estudiante 1 \\ Estudiante 2 \\ Estudiante 3}{Docente}
+	\end{caratula}
+%\chapter*{Resumen}
+%	Resumen máximo 200 palabras
+\input{context/executive_summary.tex}
+\input{context/abstract.tex}
+%\chapter*{Agradecimientos, dedicatoria}
+
+
+	\newpage 
+	\tableofcontents
+	\listoffigures
+	\listoftables
+
+\mainmatter
+\input{chapters/introduction.tex}
+\input{chapters/theory.tex}	
+\input{chapters/dev.tex}
+\input{chapters/results.tex}
+\input{chapters/closure.tex}
+
+
+\newpage
+	\bibliography{biblio}
+	\bibliographystyle{ieeetr}
+\appendix
+\chapter{Anexos}
+\section*{Anexos}
+\addcontentsline{toc}{section}{Anexos}
+\appendix
+\begin{appendices}
+	\section{Lo demás}
+	\end{appendices}
+
 \end{document}
+
+

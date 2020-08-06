@@ -1,7 +1,61 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{libro:ejemplo_dos_autores}
-N.~Apellido and N.~Apellido, {\em Título del Libro}.
-\newblock Editorial o universidad que lo publicó, mar 2001.
+\bibitem{livescience}
+J.~Zimmermann, Kim Ann y~Emspak, ``Live science. internet history timeline.''
+  {\url{https://www.livescience.com/20727-internet-history.html}}, jun 2017.
+\newblock {Accessed: 2020-05-30}.
+
+\bibitem{footekeithd.2016}
+K.~D. Foote, ``A brief history of the internet of things.''
+  {\url{https://www.dataversity.net/brief-history-internet-things/}}, aug 2016.
+\newblock {Accessed: 2020-05-28}.
+
+\bibitem{ccna}
+C.~N. Academy, ``Introduccion a redes.'' Curso CCNA, 2014.
+
+\bibitem{kingsburyalex}
+A.~Kingsbury, ``10 cities adopting smart grid technology.''
+  {\url{https://www.usnews.com/news/energy/slideshows/10-cities-adopting-smart-grid-technology?onepage/}},
+  feb 2010.
+\newblock {Accessed: 2020-05-28}.
+
+\bibitem{smartenergyinternational}
+S.~E. International, ``Uk hits 500000 smet2 smart meters.''
+  {\url{https://www.smart-energy.com/industry-sectors/business-finance-regulation/uk-hits-500-000-smart-meters-install-rate-must-double-smets2//}},
+  mar 2019.
+\newblock {Accessed: 2020-05-18}.
+
+\bibitem{smartenergyintgas}
+S.~E. International, ``3.2 billion in investment anticipated in smart gas
+  metering through 2019.''
+  {\url{https://www.smart-energy.com/industry-sectors/policy-regulation/3-2-billion-investment-anticipated-smart-gas-metering-through-2019//}},
+  mar 2019.
+\newblock {Accessed: 2020-05-18}.
+
+\bibitem{deutscheenergie-agentur}
+D.~Energie-Agentur, ``Smart meters for the future.''
+  {\url{na.de/en/topics-projects/energy-systems/digitalisation/smart-meter//}},
+  jun 2019.
+\newblock {Accessed: 2020-05-13}.
+
+\bibitem{smartenergy}
+S.~Energy, ``Smart grid developments in latin america.''
+  {\url{https://www.smart-energy.com/industry-sectors/smart-grid/latin-american-smart-grid-development-navigant//}},
+  aug 2018.
+\newblock {Accessed: 2020-05-10}.
+
+\bibitem{demartinicecilia}
+C.~Demartini, ``Argentina: Power grid becomes digital with the first 5000 smart
+  meters installed in bs.''
+  {\url{https://via.news/south-america/argentina-power-grid-digital-smart-meters-buenos-aires//}},
+  dec 2017.
+\newblock {Accessed: 2020-05-22}.
+
+\bibitem{bancomundial}
+B.~Mundial, ``La covid-19 (coronavirus) hunde a la economía mundial en la peor
+  recesión desde la segunda guerra mundial.''
+  {\url{https://www.bancomundial.org/es/news/press-release/2020/06/08/covid-19-to-plunge-global-economy-into-worst-recession-since-world-war-ii/}},
+  06 2020.
+\newblock {Accessed: 2020-07-23}.
 
 \end{thebibliography}

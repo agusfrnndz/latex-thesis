@@ -1,7 +1,6 @@
-
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{upb_class}[9/9/2016 Clase para TFGs UPB]
-\LoadClass[12pt,letterpaper,twoside]{book}
+\LoadClass[12pt,letterpaper,oneside]{book}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[spanish,es-tabla]{babel} 
 %\usepackage[]{biblatex}
@@ -9,7 +8,7 @@
 %\usepackage{amsfonts}
 %\usepackage{amssymb}
 \RequirePackage{graphicx}
-\RequirePackage{caption}
+\RequirePackage[small, bf]{caption}
 \RequirePackage{subcaption}
 \RequirePackage[usenames,dvipsnames,table]{xcolor}
 \RequirePackage[nottoc,notlof,notlot]{tocbibind}
@@ -28,6 +27,7 @@
 \RequirePackage{pdflscape}
 \RequirePackage[top=2.5cm, bottom=2.5cm, left=3.5cm, right=2.5cm, headsep=0.35cm]{geometry}
 \RequirePackage{titlesec}
+\RequirePackage{float}
 
 
 \RequirePackage{fancyhdr}
@@ -39,8 +39,11 @@
 \linespread{1.3}
 
 \titleformat{\chapter}[hang]{\bf\huge}{\thechapter}{2pc}{}
-
+\renewcommand{\labelitemi}{\textbullet}
+%\setlist[itemize]{label=\textbullet}
+%\captionsetup[figure]{labelfont={bf}}
 %\renewcommand{\chapter}{\normalfont\Large\bfseries}
+
 
 \fancyfoot[LO, RE]{\scriptsize{UPB © 2020}} \fancyfoot[RO, LE]{\thepage}
 %\renewcommand{\headrulewidth}{0.4pt}% Default \headrulewidth is 0.4pt

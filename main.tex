@@ -1,12 +1,14 @@
 \documentclass{upb_class}
+%\usepackage[backend=biber,style=iso-numeric]{biblatex}
+%\usepackage{csquotes}
+%\addbibresource{test.bib}
 
 \begin{document}
 \frontmatter
 	\begin{caratula}{Lectura remota de servicios básicos mediante reconocimiento de caracteres}
 		{Mauro Agustín Fernández Villalba}{Licenciatura en Ingeniería Electromecánica}{Ing. Mauro Sergio Quiroga Coronado}{Estudiante 1 \\ Estudiante 2 \\ Estudiante 3}{Docente}
 	\end{caratula}
-%\chapter*{Resumen}
-%	Resumen máximo 200 palabras
+
 \input{context/executive_summary.tex}
 \input{context/abstract.tex}
 %\chapter*{Agradecimientos, dedicatoria}
@@ -24,18 +26,18 @@
 \input{chapters/results.tex}
 \input{chapters/closure.tex}
 
-
 \newpage
 	\bibliography{biblio}
 	\bibliographystyle{ieeetr}
+	%\printbibliography
 \appendix
 \chapter{Anexos}
-\section*{Anexos}
-\addcontentsline{toc}{section}{Anexos}
-\appendix
-\begin{appendices}
-	\section{Lo demás}
-	\end{appendices}
+%\section*{Anexos}
+%\addcontentsline{toc}{section}{Anexos}
+%\appendix
+%\begin{appendices}
+%	\section{Lo demás}
+%	\end{appendices}
 
 \end{document}
 
